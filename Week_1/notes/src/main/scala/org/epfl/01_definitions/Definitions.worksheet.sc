@@ -24,3 +24,4 @@ def marathonDuration(speed: Double): Double =
 marathonDuration(12)
 
 marathonDuration(14)
+
