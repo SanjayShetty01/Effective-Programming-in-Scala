@@ -1,3 +1,4 @@
+import monix.catnap.cancelables.AssignableCancelableF.Bool
 case class Card(shape: Shape, number: Number, color: Color, shading: Shading)
 
 enum Shape:
@@ -74,3 +75,42 @@ isValidSet(
   Card(Shape.Squiggle, Number.Two,   Color.Purple, Shading.Open),
   Card(Shape.Oval,     Number.Three, Color.Purple, Shading.Solid)
 )
+
+
+// enum notes
+
+// somtimes, the alt of values of a type are not classes of values but are singleton values
+
+enum PrimaryColour:
+  case Red, Blue, Green
+
+// this defines PrimaryColour with exactly three values
+// above code is equivalent to 
+
+/* sealed trait PrimaryColour
+object PrimaryColour:
+  case object  Red extends PrimaryColour
+  case object Blue extends PrimaryColour
+  case object Green extends PrimaryColour
+  
+  val values = Array(Red, Green, Blue)
+  def valueOf(label: String): PrimaryColour = ???
+ */
+
+def isProblematicForColorBlindPeople(color: PrimaryColour): Boolean = {
+  color match {
+    case PrimaryColour.Blue => false
+    case PrimaryColour.Green => true
+    case PrimaryColour.Red => true
+  }
+  
+}
+
+PrimaryColour.values
+
+PrimaryColour.valueOf("Blue")
+
+
+isProblematicForColorBlindPeople(PrimaryColour.Green)
+
+val color: PrimaryColour = PrimaryColour.Green

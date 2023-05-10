@@ -159,3 +159,383 @@ Caused by: java.io.IOException: An existing connection was forcibly closed by th
 	at java.lang.Thread.run(Thread.java:829)
 
 2023.05.09 07:34:52 INFO  Exiting server
+2023.05.09 19:43:00 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_1\notes' for client Visual Studio Code 1.78.0.
+May 09, 2023 7:43:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 09, 2023 7:43:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 09, 2023 7:43:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 09, 2023 7:43:01 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\metals (H2 2.1)
+May 09, 2023 7:43:01 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+May 09, 2023 7:43:01 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 09, 2023 7:43:01 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.09 19:43:01 INFO  time: initialize in 0.71s
+2023.05.09 19:43:03 INFO  Attempting to connect to the build server...
+2023.05.09 19:43:03 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.09 19:43:03 INFO  skipping build import with status 'Installed'
+2023.05.09 19:43:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.09 19:43:03 INFO  Attempting to connect to the build server...
+2023.05.09 19:43:03 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.09 19:43:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\project\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.09 19:43:04 INFO  time: Connected to build server in 1.05s
+2023.05.09 19:43:04 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.09 19:43:09 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_1\notes\src\main\scala\org\epfl\01_definitions\Definitions.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.09 19:43:09 INFO  time: code lens generation in 6.68s
+May 09, 2023 7:43:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+May 09, 2023 7:43:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.05.09 19:43:10 INFO  time: Imported build in 0.52s
+2023.05.09 19:43:11 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_1\notes\src\main\scala\org\epfl\01_definitions\Definitions.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.09 19:43:11 ERROR Empty build targets. Expected at least one build target identifier.
+2023.05.09 19:43:13 INFO  time: code lens generation in 2.6s
+2023.05.09 19:43:13 INFO  time: code lens generation in 3.29s
+2023.05.09 19:43:18 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 6.54s
+2023.05.09 19:43:20 INFO  time: indexed workspace in 9.82s
+2023.05.09 19:43:26 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 2.01s
+2023.05.09 19:43:29 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.55s
+2023.05.09 19:44:01 INFO  time: evaluated worksheet 'game_base.worksheet.sc' in 2.15s
+2023.05.09 19:44:05 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 2.11s
+May 09, 2023 7:44:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+2023.05.09 19:48:10 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.63s
+2023.05.09 19:49:15 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.47s
+2023.05.09 19:49:17 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.49s
+2023.05.09 19:50:04 INFO  skipping build import with status 'Installed'
+2023.05.09 19:50:07 INFO  time: code lens generation in 1.53s
+2023.05.09 19:50:07 INFO  time: code lens generation in 2.86s
+2023.05.09 19:50:07 INFO  time: code lens generation in 3.59s
+2023.05.09 19:51:01 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.54s
+2023.05.09 19:51:08 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.51s
+2023.05.09 19:51:43 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.48s
+2023.05.09 19:52:01 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.51s
+2023.05.09 19:52:14 INFO  time: evaluated worksheet 'Definitions.worksheet.sc' in 0.57s
+2023.05.09 19:53:33 INFO  time: evaluated worksheet 'house.worksheet.sc' in 1.44s
+2023.05.09 19:53:33 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.33s
+2023.05.09 19:53:34 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.36s
+2023.05.09 19:55:07 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.39s
+May 09, 2023 7:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1469
+2023.05.09 19:56:36 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.45s
+2023.05.09 20:05:24 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.39s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:33:25: : expected but ) found
+case class Circle(radius) extends S
+                        ^
+2023.05.09 20:10:26 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.22s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:32:1: 
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:33:40: 
+Not found: type S
+case class Circle(radius: Int) extends S
+                                       ^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:34:1: 
+Not found: hape
+hape
+^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:8:13: 
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 52 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+2023.05.09 20:10:35 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.28s
+May 09, 2023 8:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2640
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:32:1: 
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:33:40: 
+Not found: type S
+case class Circle(radius: Int) extends S
+                                       ^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:37:24: 
+Found:    MdocApp.this.Circle
+Required: MdocApp.this.Shape
+val someShae : Shape = Circle(5)
+                       ^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:8:13: 
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 52 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+2023.05.09 20:11:38 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.18s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:32:1: 
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:8:13: 
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 52 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+2023.05.09 20:11:42 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.28s
+2023.05.09 20:11:55 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.37s
+2023.05.09 20:12:29 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.4s
+2023.05.09 20:13:41 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.41s
+2023.05.09 20:14:05 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.39s
+May 09, 2023 8:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3468
+May 09, 2023 8:15:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3712
+May 09, 2023 8:15:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3758
+2023.05.09 20:16:00 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.65s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:49:1: 
+value someShapeArea in class MdocApp does not take parameters
+someShapeArea(Circle(5))
+^^^^^^^^^^^^^
+2023.05.09 20:16:46 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.27s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:50:1: 
+value someShapeArea in class MdocApp does not take parameters
+someShapeArea(Circle(5))
+^^^^^^^^^^^^^
+2023.05.09 20:17:11 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.3s
+2023.05.09 20:20:10 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.51s
+2023.05.09 20:21:06 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.49s
+2023.05.09 20:21:14 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.49s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:45:4: 
+match may not be exhaustive.
+
+It would fail on pattern case: MdocApp.Circle(_, _)
+
+   someShape match {
+   ^^^^^^^^^
+2023.05.09 20:23:00 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.46s
+2023.05.09 20:23:08 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.41s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:1: 
+Not found: someCircle
+someCircle match
+^^^^^^^^^^
+2023.05.09 20:26:24 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.27s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:1: 
+Not found: someCircle
+someCircle match
+^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:60:1: 
+Not found: someCircle
+someCircle
+^^^^^^^^^^
+2023.05.09 20:26:34 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.24s
+May 09, 2023 8:27:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4830
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:4: 
+Not found: someCircle
+   someCircle match
+   ^^^^^^^^^^
+2023.05.09 20:27:24 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.2s
+May 09, 2023 8:27:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:4: 
+Not found: someCircle
+   someCircle match
+   ^^^^^^^^^^
+2023.05.09 20:28:24 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.25s
+May 09, 2023 8:29:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+May 09, 2023 8:29:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:4: 
+Not found: someCircle
+   someCircle match
+   ^^^^^^^^^^
+2023.05.09 20:29:51 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.28s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:56:4: 
+Not found: someCircle
+   someCircle match {
+   ^^^^^^^^^^
+2023.05.09 20:30:09 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.21s
+May 09, 2023 8:30:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5124
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:58:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:30:56 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.43s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:31:07 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.57s
+May 09, 2023 8:32:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5445
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:74:51: 
+Not found: type Strings
+case class PostMessage(channel: Channel, message: Strings) extends Action
+                                                  ^^^^^^^
+2023.05.09 20:34:20 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.29s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:34:32 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.61s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:35:47 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.6s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:36:02 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.62s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:46:18 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.7s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:46:25 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.78s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:83:1: 
+Shape is already defined as trait Shape
+sealed trait Shape
+^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:84:1: 
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:85:1: 
+Circle is already defined as class Circle
+case class Circle(radius: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:8:13: 
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 122 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:33:12: 
+Double definition:
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 125 and
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 55
+
+case class Circle(radius: Int) extends Shape
+           ^
+2023.05.09 20:46:54 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.31s
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:83:1: stale mdoc error:
+Shape is already defined as trait Shape
+sealed trait Shape
+^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:84:1: stale mdoc error:
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:85:1: stale mdoc error:
+Circle is already defined as class Circle
+case class Circle(radius: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:8:13: stale mdoc error:
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 122 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:33:12: stale mdoc error:
+Double definition:
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 125 and
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 55
+
+case class Circle(radius: Int) extends Shape
+           ^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:83:1: stale mdoc error:
+Shape is already defined as trait Shape
+sealed trait Shape
+^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:84:1: stale mdoc error:
+Rectangle is already defined as class Rectangle
+case class Rectangle(width: Int, height: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:85:1: stale mdoc error:
+Circle is already defined as class Circle
+case class Circle(radius: Int) extends Shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:8:13: stale mdoc error:
+Double definition:
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 122 and
+final lazy module object Rectangle: MdocApp.this.Rectangle in class MdocApp at line 10
+
+ case class Rectangle(width: Int , height: Int): 
+            ^
+2023.05.09 20:47:28 INFO  file:///D:/Github/Effective-Programming-in-Scala/Week_1/notes/src/main/scala/org/epfl/02_houses/house.worksheet.sc:33:12: stale mdoc error:
+Double definition:
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 125 and
+final lazy module object Circle: MdocApp.this.Circle in class MdocApp at line 55
+
+case class Circle(radius: Int) extends Shape
+           ^
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:48:06 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.62s
+[31merror[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:92:6: 
+Found:    MdocApp.this.Rectangle
+Required: MdocApp.this.Shape1
+area(Rectangle(5,4))
+     ^^^^^^^^^^^^^^
+2023.05.09 20:48:20 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.32s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:48:33 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.56s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:48:59 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.66s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:49:08 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.62s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 20:49:15 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.98s
+2023.05.09 20:50:27 INFO  time: evaluated worksheet 'game_base.worksheet.sc' in 0.4s
+2023.05.09 20:50:32 INFO  time: evaluated worksheet 'VideoStreaming.worksheet.sc' in 2s
+2023.05.09 22:42:23 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.46s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 22:42:27 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.63s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 22:42:34 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.64s
