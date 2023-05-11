@@ -113,4 +113,4 @@ PrimaryColour.valueOf("Blue")
 
 isProblematicForColorBlindPeople(PrimaryColour.Green)
 
-val color: PrimaryColour = PrimaryColour.Green
+val color: PrimaryColour = PrimaryColour.Red

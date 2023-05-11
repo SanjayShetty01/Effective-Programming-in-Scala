@@ -539,3 +539,125 @@ Unreachable case except for null (if this is intentional, consider writing case 
       case _ => "NOTTT A CIRCLE"
            ^
 2023.05.09 22:42:34 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.64s
+[33mwarning[39m: src\main\scala\org\epfl\02_houses\house.worksheet.sc:61:12: 
+Unreachable case except for null (if this is intentional, consider writing case null => instead).
+      case _ => "NOTTT A CIRCLE"
+           ^
+2023.05.09 22:43:39 INFO  time: evaluated worksheet 'house.worksheet.sc' in 0.62s
+2023.05.09 22:43:43 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.51s
+May 10, 2023 6:21:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+May 10, 2023 6:22:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.05.10 06:22:33 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 06:22:33 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 06:22:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 06:22:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 06:22:33 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.10 06:22:33 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.10 06:22:33 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 06:22:33 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 06:22:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\project\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 06:22:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\project\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 06:22:36 INFO  time: Imported build in 2.35s
+2023.05.10 06:22:36 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.47s
+2023.05.10 06:22:41 INFO  time: indexed workspace in 4.89s
+2023.05.10 06:22:46 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 1.57s
+2023.05.10 06:23:09 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.43s
+2023.05.10 06:23:44 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.49s
+May 10, 2023 6:24:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7964
+May 10, 2023 6:26:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8648
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:97:47: illegal start of simple expression
+  def valueOf(label: String): PrimaryColour = ...
+                                              ^
+2023.05.10 06:27:06 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.19s
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:90:1: 
+PrimaryColour is already defined as class PrimaryColour
+sealed trait PrimaryColour
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:92:3: 
+object Red in object PrimaryColour extends enum PrimaryColour, but extending enums is prohibited.
+  case object  Red extends PrimaryColour
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:93:3: 
+object Blue in object PrimaryColour extends enum PrimaryColour, but extending enums is prohibited.
+  case object Blue extends PrimaryColour
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:94:3: 
+object Green in object PrimaryColour extends enum PrimaryColour, but extending enums is prohibited.
+  case object Green extends PrimaryColour
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:96:7: 
+Double definition:
+def values: Array[MdocApp.this.PrimaryColour] in object PrimaryColour at line 103 and
+val values: Array[MdocApp.this.PrimaryColour] in object PrimaryColour at line 114
+
+  val values = Array(Red, Green, Blue)
+      ^
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:97:7: 
+Double definition:
+def valueOf($name: String): MdocApp.this.PrimaryColour in object PrimaryColour at line 103 and
+def valueOf(label: String): MdocApp.this.PrimaryColour in object PrimaryColour at line 115
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+  def valueOf(label: String): PrimaryColour = ???
+      ^
+2023.05.10 06:27:35 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.26s
+2023.05.10 06:27:53 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.54s
+May 10, 2023 6:28:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8858
+2023.05.10 06:28:31 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.51s
+May 10, 2023 6:28:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8978
+2023.05.10 06:28:45 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.38s
+May 10, 2023 6:29:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9074
+2023.05.10 06:29:43 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.37s
+2023.05.10 06:34:42 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.69s
+2023.05.10 06:34:44 INFO  time: evaluated worksheet 'game_base.worksheet.sc' in 1.26s
+2023.05.10 06:34:53 INFO  time: evaluated worksheet 'VideoStreaming.worksheet.sc' in 1.38s
+2023.05.10 07:08:40 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 07:08:40 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 07:08:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 07:08:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 07:08:40 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.10 07:08:40 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 07:08:40 INFO  Bloop uses C:\Users\sanjaya\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\sanjaya\.bloop\bloop.json
+2023.05.10 07:08:40 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.10 07:08:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\project\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 07:08:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\notes\project\.metals\bsp.trace.json or C:\Users\sanjaya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.10 07:08:42 INFO  time: Imported build in 2.28s
+2023.05.10 07:08:44 INFO  time: indexed workspace in 1.89s
+2023.05.10 07:08:44 ERROR Empty build targets. Expected at least one build target identifier.
+2023.05.10 07:08:44 INFO  time: Imported build in 4.37s
+[31merror[39m: src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc:1:8: 
+Not found: monix
+import monix.catnap.cancelables.AssignableCancelableF.Bool
+       ^^^^^
+2023.05.10 07:08:45 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_1\notes\src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.10 07:08:45 INFO  time: code lens generation in 2.78s
+2023.05.10 07:08:46 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_1\notes\src\main\scala\org\epfl\03_setcardgame\game_base_strict.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.10 07:08:46 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 2.49s
+2023.05.10 07:08:48 INFO  time: indexed workspace in 3.8s
+2023.05.10 07:08:49 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 2.19s
+2023.05.10 07:08:53 INFO  time: evaluated worksheet 'game_base_strict.worksheet.sc' in 0.49s
+2023.05.10 07:09:08 INFO  Shutting down server
+2023.05.10 07:09:08 INFO  shutting down Metals
+2023.05.10 07:09:08 INFO  Shut down connection with build server.
+2023.05.10 07:09:08 INFO  Shut down connection with build server.
+2023.05.10 07:09:08 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.05.10 07:09:08 INFO  Exiting server
