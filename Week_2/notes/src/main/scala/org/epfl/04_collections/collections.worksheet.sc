@@ -1,6 +1,9 @@
 // ArrayBuffer
 import scala.collection.mutable
 
+// immutable are availabel by default
+//but mutable has to be imported
+
 val buffer = mutable.ArrayBuffer("foo", "bar", "baz")
 buffer(1) = "quux"
 println(buffer)
@@ -82,3 +85,62 @@ val age: (String, Int) => Int =
 val name: (String, Int) => String =
   (name, _) => name
 people.groupMap(age(_, _))(name(_, _))
+
+
+
+// creating collections
+
+// Contructing empty collections
+
+List.empty
+Map.empty
+mutable.ArrayBuffer.empty
+
+// Since the above code has type nothing.
+
+var a = List.empty
+
+a.prepended(5).appended("hi")
+
+val myList: List[Matchable] = List("hello", 42, true, Some("world"))
+
+myList.foreach {
+  case s: String => println(s"Found a string: $s")
+  case i: Int => println(s"Found an integer: $i")
+  case b: Boolean => println(s"Found a boolean: $b")
+  case Some(value) => println(s"Found an option: $value")
+  case _ => println("Found something else")
+}
+
+// when we have matchable
+
+// to get type control 
+
+List.empty[Int]
+Map.empty[String, Boolean]
+mutable.ArrayBuffer.empty[Double]
+
+// creating maps
+
+Map('a' -> true, 'e' -> true, 'b' -> false)
+
+val b : (String, Int) = ("Alice", 1)
+
+
+(10, "hello") match 
+  case (number, greeting) => s" $greeting! The number is $number"
+
+// Appending and prepending elements
+
+0 +: List(1,2,3)
+
+List(1,2,3) :+ 4
+
+// for list we use `+`
+
+Map("a" -> true) + ("e" -> false)
+
+Map("a" -> 2, "b" -> 1)
+
+
+
