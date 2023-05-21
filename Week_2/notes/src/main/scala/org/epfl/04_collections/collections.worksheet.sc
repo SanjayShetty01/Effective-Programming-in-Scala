@@ -142,5 +142,29 @@ Map("a" -> true) + ("e" -> false)
 
 Map("a" -> 2, "b" -> 1)
 
+// Querying Collections 
+
+val list1 = List(1,2,3,5)
+
+list1.size
+
+list1.contains(4)
+
+// when it is used in a map, we pass a key and not the value  
+
+//find() get's the first and filter get's all the elements that matches the condition (predicate)
+
+list1.find(x =>  x == 5)
+
+// Note that the find returns option type
+
+list1.find(x => x == 7)
+
+// this is because it could return None or some() type here
 
 
+val names = List("Alice", "Bob", "Carol", "David")
+names.filter(name => name.size > 4)
+println(names)
+
+// note that the filter method calls a new list and doesn't alter the exisiting one
