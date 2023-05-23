@@ -168,3 +168,27 @@ names.filter(name => name.size > 4)
 println(names)
 
 // note that the filter method calls a new list and doesn't alter the exisiting one
+
+
+// transforming a collection
+
+val list2 = List(1,4,5,6,9)
+
+list2.map(x => x + 1)
+
+
+val map1 = Map(0 -> "No", 1 -> "Yes")
+
+map1.map((key, value) =>  key -> (value *2))
+
+// Flatmap
+// map doesn't change the number of elements in the collection. But flatmap does
+
+List(1,2,3).flatMap(x => List())
+
+mutable.ArrayBuffer(1,2).flatMap(x => mutable.ArrayBuffer(x, x * 2))
+
+Map(0 -> "Zero", 1 -> "One").flatMap((key, _) => 
+  Map(key.toString -> key))
+// changing the type
+
