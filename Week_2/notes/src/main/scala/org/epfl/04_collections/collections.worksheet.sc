@@ -192,3 +192,16 @@ Map(0 -> "Zero", 1 -> "One").flatMap((key, _) =>
   Map(key.toString -> key))
 // changing the type
 
+// map vs flatMap
+
+case class Contact(name: String, phoneNumber: List[String])
+// val contacts: List[Contact]
+
+// val allPhonenumber = contacts.map(contact => contacts.phoneNumber)
+
+// allPhoneNumber would have list of list value, but to flaten the list we can use flatmap
+// val allPhonenumber = contacts.flatMap(contact => contacts.phoneNumber)
+
+
+// FoldLeft
+// This method allows us to transform a collection into anything else
