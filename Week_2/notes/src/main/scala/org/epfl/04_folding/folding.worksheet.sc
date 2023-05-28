@@ -35,3 +35,45 @@ foo(0, 10)(i => i * i)
 foo(0, 10){ i =>
   i * i
 }
+
+
+// Sequences and maps
+
+// Some collections are sequences since the ordering matters in some of the collections. List and ArrayBuffer are sequencs
+// But map is not.
+
+// Head and Tail (only on sequences)
+import scala.collection.mutable.ArrayBuffer
+
+val data1 = ArrayBuffer(1,2,4)
+
+data1.head 
+data1.tail
+
+// List are linear sequence O(n) operation
+// array buffers are indexed sequence O(1) operation
+
+val data3 = List(
+  "Alice" -> 42,
+  "bob" -> 30,
+  "wer" -> 23,
+  "owl" -> 4
+)
+
+
+data3.sortBy((_,age)=> age)
+
+data3.sortBy((name,_)=> name)
+
+
+// maps
+
+val data4 = Map(
+  "Alice" -> 42,
+  "bob" -> 30,
+  "wer" -> 23,
+  "owl" -> 4
+)
+
+data4.get("Alice")
+
