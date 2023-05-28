@@ -1,6 +1,12 @@
+
+// my notes
+
+// An optional value can be None or Some(Value)
+
+// making the email field optional 
 case class Contact(
   name: String,
-  maybeEmail: Option[String],
+  maybeEmail: Option[String], // common practise to use maybe name for optional field
   phoneNumbers: List[String]
 )
 
@@ -20,6 +26,7 @@ def emailLength(contact: Contact): Int =
     .getOrElse(0)
 
 // Zipping two optional values
+// zip combines two optional values into single optional value (inside a tuple)
 val maybeAliceAndBobEmails: Option[(String, String)] =
   alice.maybeEmail.zip(bob.maybeEmail)
 
@@ -29,7 +36,7 @@ def sendEmail(emailAddress: String, message: String): Unit =
   println("Sending message: '" + message + "' to Email address " + emailAddress)
 
 def sendNotification(contact: Contact, message: String): Unit =
-  contact.phoneNumbers.headOption match
+  contact.phoneNumbers.headOption match // headOption returns a option instead of error (head)
     case Some(number) => sendSms(number, message)
     case None =>
       contact.maybeEmail match

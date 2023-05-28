@@ -2745,3 +2745,131 @@ val domain: String => String = email => email.dropWhile(c => c != '@').drop(1)
 2023.05.28 21:33:35 INFO  time: evaluated worksheet 'collections.worksheet.sc' in 2.5s
 2023.05.28 21:33:55 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_collections\collections.worksheet.sc
 2023.05.28 21:33:58 INFO  time: evaluated worksheet 'collections.worksheet.sc' in 2.95s
+2023.05.28 21:39:49 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 21:39:51 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.28 21:39:51 INFO  time: evaluated worksheet 'option.worksheet.sc' in 2.09s
+2023.05.28 21:40:06 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\basketball-collections.worksheet.sc
+2023.05.28 21:40:08 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\basketball-collections.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.28 21:40:08 INFO  time: evaluated worksheet 'basketball-collections.worksheet.sc' in 1.47s
+2023.05.28 21:40:09 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\basketball-while.worksheet.sc
+2023.05.28 21:40:10 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\basketball-while.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.28 21:40:10 INFO  time: evaluated worksheet 'basketball-while.worksheet.sc' in 1.33s
+2023.05.28 21:40:10 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\BasketballRecursion.worksheet.sc
+2023.05.28 21:40:11 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_basketball\BasketballRecursion.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.28 21:40:12 INFO  time: evaluated worksheet 'BasketballRecursion.worksheet.sc' in 1.2s
+2023.05.28 21:40:13 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\13_sierpinski\Sierpinski.scala
+2023.05.28 21:40:18 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\14_tail-recursion\loops.worksheet.sc
+2023.05.28 21:40:20 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\14_tail-recursion\loops.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.28 21:40:20 INFO  time: evaluated worksheet 'loops.worksheet.sc' in 1.28s
+May 28, 2023 9:40:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3439
+May 28, 2023 9:42:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3766
+May 28, 2023 9:42:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4004
+2023.05.28 21:43:12 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:47:13: 
+Not found: mutable
+val data1 = mutable.ArrayBuffer(1,2,4)
+            ^^^^^^^
+2023.05.28 21:43:12 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.19s
+May 28, 2023 9:43:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Could not read definition of object Colors in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.8.1\pprint_3-0.8.1.jar(pprint/TPrintColors.class)
+An exception was encountered:
+  dotty.tools.dotc.core.TypeError: Could not read definition of object Color in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.4.0\fansi_3-0.4.0.jar(fansi/Color.class)
+An exception was encountered:
+  dotty.tools.dotc.core.TypeError: Could not read definition of class ColorCategory in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.4.0\fansi_3-0.4.0.jar(fansi/ColorCategory.class)
+An exception was encountered:
+  dotty.tools.dotc.core.MissingType: 
+Run with -Ydebug-unpickling to see full stack trace.
+Run with -Ydebug-unpickling to see full stack trace.
+Run with -Ydebug-unpickling to see full stack trace.
+dotty.tools.dotc.core.TypeError: Could not read definition of object Colors in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.8.1\pprint_3-0.8.1.jar(pprint/TPrintColors.class)
+An exception was encountered:
+  dotty.tools.dotc.core.TypeError: Could not read definition of object Color in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.4.0\fansi_3-0.4.0.jar(fansi/Color.class)
+An exception was encountered:
+  dotty.tools.dotc.core.TypeError: Could not read definition of class ColorCategory in C:\Users\Sanjay\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.4.0\fansi_3-0.4.0.jar(fansi/ColorCategory.class)
+An exception was encountered:
+  dotty.tools.dotc.core.MissingType: 
+Run with -Ydebug-unpickling to see full stack trace.
+Run with -Ydebug-unpickling to see full stack trace.
+Run with -Ydebug-unpickling to see full stack trace.
+	at dotty.tools.dotc.core.tasty.TreeUnpickler.dotty$tools$dotc$core$tasty$TreeUnpickler$Completer$$_$fail$1(TreeUnpickler.scala:133)
+	at dotty.tools.dotc.core.tasty.TreeUnpickler$Completer.liftedTree1$1(TreeUnpickler.scala:142)
+	at dotty.tools.dotc.core.tasty.TreeUnpickler$Completer.complete(TreeUnpickler.scala:142)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.computeMembersNamed(SymDenotations.scala:2053)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at scala.meta.internal.pc.completions.Completions.completionsWithSuffix(Completions.scala:328)
+	at scala.meta.internal.pc.completions.Completions.$anonfun$5(Completions.scala:585)
+	at scala.collection.immutable.List.filter(List.scala:515)
+	at scala.meta.internal.pc.CompilerSearchVisitor.visitClassfile(CompilerSearchVisitor.scala:68)
+	at scala.meta.internal.metals.ClasspathSearch.$anonfun$search$5(ClasspathSearch.scala:49)
+	at scala.meta.internal.metals.ClasspathSearch.$anonfun$search$5$adapted(ClasspathSearch.scala:39)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at scala.meta.internal.metals.ClasspathSearch.search(ClasspathSearch.scala:39)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.search(StandaloneSymbolSearch.scala:104)
+	at scala.meta.internal.pc.completions.Completions.enrichWithSymbolSearch(Completions.scala:588)
+	at scala.meta.internal.pc.completions.Completions.filterInteresting(Completions.scala:667)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:208)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+
+2023.05.28 21:43:26 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:47:13: 
+value mutable is not a member of scala
+val data1 = scala.mutable.ArrayBuffer(1,2,4)
+            ^^^^^^^^^^^^^
+2023.05.28 21:43:26 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.2s
+May 28, 2023 9:43:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4199
+2023.05.28 21:43:40 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:47:13: 
+Not found: mutable
+val data1 = mutable.collection.ArrayBuffer(1,2,4)
+            ^^^^^^^
+2023.05.28 21:43:40 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.25s
+2023.05.28 21:43:43 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:47:13: 
+Not found: mutable
+val data1 = mutable.collections.ArrayBuffer(1,2,4)
+            ^^^^^^^
+2023.05.28 21:43:43 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.19s
+2023.05.28 21:44:33 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:44:33 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.41s
+May 28, 2023 9:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4357
+May 28, 2023 9:49:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4674
+2023.05.28 21:49:34 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:49:35 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.4s
+2023.05.28 21:49:54 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:64:1: 
+Not found: data
+data.sortBy((_,age)=> age)
+^^^^
+2023.05.28 21:49:55 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.22s
+2023.05.28 21:50:02 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:50:02 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.4s
+May 28, 2023 9:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5011
+2023.05.28 21:50:26 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+[31merror[39m: src\main\scala\org\epfl\04_folding\folding.worksheet.sc:66:1: 
+Not found: data
+data.sortBy((name,_)=> name)
+^^^^
+2023.05.28 21:50:27 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.3s
+2023.05.28 21:50:31 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:50:31 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.43s
+2023.05.28 21:51:30 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:51:30 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.43s
+2023.05.28 21:52:09 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
+2023.05.28 21:52:10 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.83s
