@@ -40,3 +40,22 @@ a // ArrayBuffer(1, 2, 3, 4)
 val b = ArrayBuffer(1, 2, 3, 3, 4)
 b --= List(3, 4, 5)
 b
+
+
+
+/*
+
+Symbols
+
+▶ + is updated
+▶ ++ is concat
+▶ - is removed
+▶ -- is removedAll
+▶ +: is prepended
+▶ :+ is appended
+▶ += is addOne
+▶ ++= is addAll
+
+*/
+
+
