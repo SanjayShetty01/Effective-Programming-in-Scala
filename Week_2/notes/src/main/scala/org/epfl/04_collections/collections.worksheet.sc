@@ -205,3 +205,32 @@ case class Contact(name: String, phoneNumber: List[String])
 
 // FoldLeft
 // This method allows us to transform a collection into anything else
+
+// sum the elements of the list 
+
+List(1,2,3).foldLeft(0)((accum,elt) => accum + elt)
+
+// Revesrse the list 
+List(1,2,3).foldLeft(List.empty[Int])((accum, elt) => elt +: accum)
+
+// checking foldRight logic
+List(1,2,3).foldRight(List.empty[Int])(( elt, accum) => elt +: accum)
+
+// True if the last element is even
+
+List(1,2,3).foldLeft(true)((accum, elt) => elt % 2 == 0)
+
+
+// how does foldLeft work
+
+// the method foldLeft has two parameter lists 
+//eg: def foo(x: Int, y: Int)(f: Int => Int): Int
+
+//foldLeft(the_initial_value)((accumulator, the_currnt_element))
+
+val add = (x: Int, y: Int) => x + y
+
+(1::2::3::Nil).foldLeft(0)(add)
+
+
+
