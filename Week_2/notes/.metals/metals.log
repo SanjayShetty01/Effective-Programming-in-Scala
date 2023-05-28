@@ -2873,3 +2873,23 @@ data.sortBy((name,_)=> name)
 2023.05.28 21:51:30 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.43s
 2023.05.28 21:52:09 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_folding\folding.worksheet.sc
 2023.05.28 21:52:10 INFO  time: evaluated worksheet 'folding.worksheet.sc' in 0.83s
+2023.05.28 21:52:49 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 21:52:49 INFO  time: evaluated worksheet 'option.worksheet.sc' in 0.48s
+2023.05.28 21:52:51 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 21:52:51 INFO  time: evaluated worksheet 'option.worksheet.sc' in 0.48s
+May 28, 2023 9:53:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5278
+2023.05.28 21:54:44 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 21:54:44 INFO  time: evaluated worksheet 'option.worksheet.sc' in 0.62s
+May 28, 2023 9:55:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5525
+May 28, 2023 9:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5572
+2023.05.28 21:56:15 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 21:56:16 INFO  time: evaluated worksheet 'option.worksheet.sc' in 0.44s
+May 28, 2023 9:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5778
+May 28, 2023 9:58:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5927
+2023.05.28 22:01:54 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\05_option\option.worksheet.sc
+2023.05.28 22:01:54 INFO  time: evaluated worksheet 'option.worksheet.sc' in 0.41s
