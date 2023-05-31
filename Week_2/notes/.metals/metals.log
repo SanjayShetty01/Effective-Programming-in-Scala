@@ -3009,3 +3009,10 @@ May 28, 2023 10:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 7415
 May 28, 2023 10:24:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 7419
+2023.05.28 22:27:17 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_collections\collectionsextra.worksheet.sc
+2023.05.28 22:27:17 INFO  time: evaluated worksheet 'collectionsextra.worksheet.sc' in 0.82s
+2023.05.29 12:44:26 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_2\notes\src\main\scala\org\epfl\04_collections\collectionsextra.worksheet.sc
+2023.05.29 12:44:26 INFO  time: evaluated worksheet 'collectionsextra.worksheet.sc' in 0.45s
+2023.05.29 12:44:29 INFO  Shutting down server
+2023.05.29 12:44:29 INFO  shutting down Metals
+2023.05.29 12:44:29 INFO  Exiting server

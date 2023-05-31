@@ -59,3 +59,10 @@ Symbols
 */
 
 
+// Querying collections
+
+val data1 = ArrayBuffer(1, 2, 3, 4)
+
+data1.exists(x => x < 0)
+
+data1.forall(x => x > 0)
