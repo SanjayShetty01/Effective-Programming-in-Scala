@@ -66,3 +66,10 @@ val data1 = ArrayBuffer(1, 2, 3, 4)
 data1.exists(x => x < 0)
 
 data1.forall(x => x > 0)
+
+
+val l1 = List.empty[Int]
+val l2 = 1 +: 2 +: 3 +: l1
+val l3 = l2 ++ List(4, 5, 6)
+val l4 = l3.filter(x => x % 2 == 0)
+val result = l4.exists(x => x == l4.size)
