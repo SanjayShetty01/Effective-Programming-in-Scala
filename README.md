@@ -15,4 +15,4 @@ The syllabus is organized as follows:
 - WEEK 5: contextual abstractions (aka “implicits” in Scala 2),
 - WEEK 6: error handling, data validation, and concurrent programming.
 
-The course has been co-designed by myself (Julien Richard-Foy) and Noel Welsh. Noel Welsh has a long experience in teaching Scala, both in the industry and within the Scala Bridge project
+The course has been co-designed by Julien Richard-Foy and Noel Welsh. Noel Welsh has a long experience in teaching Scala, both in the industry and within the Scala Bridge project
