@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\sbt-project_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt\HelloSbt$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt\HelloSbt$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt\HelloSbt$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt\HelloSbt$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt\HelloSbt$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt\HelloSbt$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt\run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt\run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hellosbt\run.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\target\scala-3.2.2\classes\hellosbt\run.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

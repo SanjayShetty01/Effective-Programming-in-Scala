@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\src\test\scala\hellosbt\helloSbtSuite.Scala:2:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m[33mimport[0m munit.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       Not found: munit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\src\test\scala\hellosbt\helloSbtSuite.Scala:5:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m    test([31m"try something"[0m){[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m    ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Not found: test[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

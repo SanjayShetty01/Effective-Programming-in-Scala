@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[sbt-project-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[sbt-project-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sbt-project-build' to 'D:\Github\Effective-Programming-in-Scala\Week_3\sbt-project\project\.bloop\sbt-project-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\sbt-project-build.json[0m

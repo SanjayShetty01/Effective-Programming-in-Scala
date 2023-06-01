@@ -1,0 +1,29 @@
+
+–&src/main/scala/hellosbt/HelloSbt.scala*-
+hellosbt/HelloSbt$package. *hellosbt€*7
+#hellosbt/HelloSbt$package.greeting. €*greeting€*,
+ hellosbt/HelloSbt$package.run().*run€*
+hellosbt/run# *run€**
+hellosbt/run#`<init>`(). €@*<init>€*$
+hellosbt/run#main(). € *main€*'
+hellosbt/run#main().(args)*args€*
+local0 €*error€2
+ 	hellosbt/2$
+hellosbt/HelloSbt$package.21
+ #hellosbt/HelloSbt$package.greeting.2
+ scala/main#2.
+
+  hellosbt/HelloSbt$package.run().2
+ scala/Unit#2'
+ scala/Predef.println(+1).2"
+0 0fansi/Attrs#apply().2
+, 0fansi/Color.Blue.2
+& +fansi/Color.2
+  %fansi/2(
+1 1fansi/Str.implicitApply().21
+1 9#hellosbt/HelloSbt$package.greeting.2
+hellosbt/run#2"
+hellosbt/run#`<init>`().2*
+ hellosbt/HelloSbt$package.run().23
+)scala/util/CommandLineParser.showError().2
+local0PZ C97B00489C75BBE1F601A9FE87E425E6
