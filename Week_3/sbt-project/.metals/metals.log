@@ -275,3 +275,8 @@ val greeting =  "Hello, sbt!!!"
 	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
 	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
 
+2023.06.01 21:02:18 INFO  Shutting down server
+2023.06.01 21:02:18 INFO  shutting down Metals
+2023.06.01 21:02:18 INFO  Shut down connection with build server.
+2023.06.01 21:02:18 INFO  Shut down connection with build server.
+2023.06.01 21:02:18 INFO  Exiting server

@@ -1,0 +1,109 @@
+2023.06.04 17:20:49 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_3\todo' for client Visual Studio Code 1.78.2.
+Jun 04, 2023 5:20:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 04, 2023 5:20:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 04, 2023 5:20:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_3\todo\.metals\metals (H2 2.1)
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 04, 2023 5:20:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.071s)
+2023.06.04 17:20:50 INFO  time: initialize in 0.83s
+2023.06.04 17:20:51 WARN  Build server is not auto-connectable.
+2023.06.04 17:20:51 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_3\todo\build.sbt
+2023.06.04 17:20:56 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_3\todo\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.04 17:20:57 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_3\todo\assignment.sbt
+2023.06.04 17:20:58 INFO  time: code lens generation in 1.73s
+2023.06.04 17:20:58 INFO  time: code lens generation in 7.81s
+2023.06.04 17:20:59 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_3\todo\build.sbt
+2023.06.04 17:21:02 INFO  running 'C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals2172179386773287080\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.04 17:21:06 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.04 17:21:09 INFO  [info] loading settings for project todo-build-build-build from metals.sbt ...
+2023.06.04 17:21:09 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project\project
+2023.06.04 17:21:15 INFO  [info] loading settings for project todo-build-build from metals.sbt ...
+2023.06.04 17:21:15 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project
+2023.06.04 17:21:19 INFO  [success] Generated .bloop\todo-build-build.json
+2023.06.04 17:21:19 INFO  [success] Total time: 4 s, completed 4 Jun, 2023 5:21:19 PM
+2023.06.04 17:21:22 INFO  [info] loading settings for project todo-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.06.04 17:21:22 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project
+2023.06.04 17:21:25 INFO  [success] Generated .bloop\todo-build.json
+2023.06.04 17:21:25 INFO  [info] compiling 3 Scala sources to D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\target\scala-2.12\sbt-1.0\classes ...
+2023.06.04 17:21:34 INFO  [info] done compiling
+2023.06.04 17:21:34 INFO  [success] Total time: 13 s, completed 4 Jun, 2023 5:21:34 PM
+2023.06.04 17:21:37 INFO  [info] loading settings for project todo from assignment.sbt,build.sbt ...
+2023.06.04 17:21:37 INFO  [info] set current project to effective-scala-todo (in build file:/D:/Github/Effective-Programming-in-Scala/Week_3/todo/)
+2023.06.04 17:22:05 INFO  [success] Generated .bloop\todo-test.json
+2023.06.04 17:22:05 INFO  [success] Generated .bloop\todo.json
+2023.06.04 17:22:05 INFO  [success] Total time: 27 s, completed 4 Jun, 2023 5:22:05 PM
+2023.06.04 17:22:05 INFO  time: ran 'sbt bloopInstall' in 1m3s
+2023.06.04 17:22:06 INFO  Attempting to connect to the build server...
+2023.06.04 17:22:06 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:22:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:22:16 INFO  Attempting to connect to the build server...
+2023.06.04 17:22:16 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:22:16 INFO  Attempting to connect to the build server...
+2023.06.04 17:22:16 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:22:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:22:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:22:17 INFO  time: Connected to build server in 11s
+2023.06.04 17:22:17 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.04 17:22:17 INFO  time: Imported build in 0.17s
+2023.06.04 17:22:23 INFO  time: code lens generation in 5.64s
+2023.06.04 17:22:28 INFO  time: indexed workspace in 10s
+2023.06.04 17:22:29 INFO  compiling todo-build (3 scala sources)
+2023.06.04 17:22:31 INFO  time: code lens generation in 1.68s
+2023.06.04 17:22:39 INFO  time: compiled todo-build in 10s
+2023.06.04 17:22:41 INFO  compiling todo-build (3 scala sources)
+2023.06.04 17:22:45 INFO  time: compiled todo-build in 3.95s
+2023.06.04 17:22:48 INFO  running 'C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals8272745090953461057\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.04 17:22:50 INFO  [info] welcome to sbt 1.6.1 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.04 17:22:50 INFO  [info] loading settings for project todo-build-build-build from metals.sbt ...
+2023.06.04 17:22:51 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project\project
+2023.06.04 17:22:51 INFO  [info] loading settings for project todo-build-build from metals.sbt ...
+2023.06.04 17:22:53 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project
+2023.06.04 17:22:56 INFO  [success] Generated .bloop\todo-build-build.json
+2023.06.04 17:22:56 INFO  [success] Total time: 4 s, completed 4 Jun, 2023 5:22:56 PM
+2023.06.04 17:22:56 INFO  [info] loading settings for project todo-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.06.04 17:22:56 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_3\todo\project
+2023.06.04 17:22:58 INFO  [success] Generated .bloop\todo-build.json
+2023.06.04 17:22:59 INFO  [success] Total time: 2 s, completed 4 Jun, 2023 5:22:59 PM
+2023.06.04 17:23:02 INFO  [info] loading settings for project todo from assignment.sbt,build.sbt ...
+2023.06.04 17:23:02 INFO  [info] set current project to effective-scala-todo (in build file:/D:/Github/Effective-Programming-in-Scala/Week_3/todo/)
+2023.06.04 17:23:05 INFO  [success] Generated .bloop\todo-test.json
+2023.06.04 17:23:05 INFO  [success] Generated .bloop\todo.json
+2023.06.04 17:23:05 INFO  [success] Total time: 1 s, completed 4 Jun, 2023 5:23:05 PM
+2023.06.04 17:23:05 INFO  time: ran 'sbt bloopInstall' in 16s
+2023.06.04 17:23:05 INFO  Disconnecting from Bloop session...
+2023.06.04 17:23:05 INFO  Shut down connection with build server.
+2023.06.04 17:23:05 INFO  Shut down connection with build server.
+2023.06.04 17:23:05 INFO  Shut down connection with build server.
+2023.06.04 17:23:05 INFO  Attempting to connect to the build server...
+2023.06.04 17:23:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:23:05 INFO  Attempting to connect to the build server...
+2023.06.04 17:23:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:23:05 INFO  Attempting to connect to the build server...
+2023.06.04 17:23:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 17:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_3\todo\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 17:23:05 INFO  time: Connected to build server in 0.46s
+2023.06.04 17:23:05 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.04 17:23:07 INFO  time: indexed workspace in 2.07s
+2023.06.04 17:23:09 INFO  time: code lens generation in 1.08s
