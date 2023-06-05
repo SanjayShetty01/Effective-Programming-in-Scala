@@ -1,0 +1,124 @@
+2023.06.05 08:52:13 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck' for client Visual Studio Code 1.78.2.
+Jun 05, 2023 8:52:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 05, 2023 8:52:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 05, 2023 8:52:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\.metals\metals (H2 2.1)
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 05, 2023 8:52:14 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.067s)
+2023.06.05 08:52:14 INFO  time: initialize in 0.74s
+2023.06.05 08:52:15 WARN  Build server is not auto-connectable.
+2023.06.05 08:52:15 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\build.sbt
+2023.06.05 08:52:15 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\build.sbt
+2023.06.05 08:52:18 INFO  running 'C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals7670988735376154858\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.05 08:52:18 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.05 08:52:20 INFO  time: code lens generation in 3.67s
+2023.06.05 08:52:20 INFO  time: code lens generation in 1.7s
+2023.06.05 08:52:20 INFO  time: code lens generation in 1.05s
+2023.06.05 08:52:20 INFO  time: code lens generation in 4.62s
+2023.06.05 08:52:23 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.05 08:52:28 INFO  [info] loading settings for project quickcheck-build-build-build from metals.sbt ...
+2023.06.05 08:52:30 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\project\project
+2023.06.05 08:52:35 INFO  [info] loading settings for project quickcheck-build-build from metals.sbt ...
+2023.06.05 08:52:35 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\project
+2023.06.05 08:52:36 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\assignment.sbt
+2023.06.05 08:52:38 INFO  [success] Generated .bloop\quickcheck-build-build.json
+2023.06.05 08:52:38 INFO  [success] Total time: 3 s, completed 5 Jun, 2023 8:52:39 AM
+2023.06.05 08:52:40 INFO  [info] loading settings for project quickcheck-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.06.05 08:52:40 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project
+2023.06.05 08:52:42 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\metals.sbt
+2023.06.05 08:52:43 INFO  [success] Generated .bloop\quickcheck-build.json
+2023.06.05 08:52:43 INFO  [info] compiling 2 Scala sources to D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\target\scala-2.12\sbt-1.0\classes ...
+2023.06.05 08:52:43 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\MOOCSettings.scala
+2023.06.05 08:52:45 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\plugins.sbt
+2023.06.05 08:52:45 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...
+2023.06.05 08:52:48 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\StudentTasks.scala
+2023.06.05 08:52:59 INFO  [info]   Compilation completed in 13.658s.
+2023.06.05 08:53:04 INFO  [info] done compiling
+2023.06.05 08:53:04 INFO  [success] Total time: 24 s, completed 5 Jun, 2023 8:53:04 AM
+2023.06.05 08:53:07 INFO  [info] loading settings for project quickcheck from assignment.sbt,build.sbt ...
+2023.06.05 08:53:09 INFO  [info] set current project to effective-scala-quickcheck (in build file:/D:/Github/Effective-Programming-in-Scala/Week_4/quickcheck/)
+2023.06.05 08:53:10 INFO  [success] Generated .bloop\quickcheck-test.json
+2023.06.05 08:53:10 INFO  [success] Generated .bloop\quickcheck.json
+2023.06.05 08:53:10 INFO  [success] Total time: 1 s, completed 5 Jun, 2023 8:53:10 AM
+2023.06.05 08:53:10 INFO  time: ran 'sbt bloopInstall' in 52s
+2023.06.05 08:53:10 INFO  Attempting to connect to the build server...
+2023.06.05 08:53:10 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 08:53:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 08:53:10 INFO  Attempting to connect to the build server...
+2023.06.05 08:53:10 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 08:53:10 INFO  Attempting to connect to the build server...
+2023.06.05 08:53:10 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 08:53:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 08:53:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 08:53:11 INFO  time: Connected to build server in 0.46s
+2023.06.05 08:53:11 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.05 08:53:11 INFO  time: Imported build in 0.2s
+2023.06.05 08:53:18 INFO  time: indexed workspace in 7.09s
+2023.06.05 08:57:27 INFO  compiling quickcheck-build (2 scala sources)
+2023.06.05 08:57:27 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...
+2023.06.05 08:57:37 INFO    Compilation completed in 9.808s.
+2023.06.05 08:57:46 INFO  Deduplicating compilation of quickcheck-build from bsp client 'Metals 0.11.12' (since 4m 35.424s)
+2023.06.05 08:57:46 INFO  compiling quickcheck-build (2 scala sources)
+2023.06.05 08:57:46 INFO  time: compiled quickcheck-build in 0.23s
+2023.06.05 08:57:48 INFO  time: code lens generation in 1.35s
+2023.06.05 08:59:58 INFO  Shutting down server
+2023.06.05 08:59:58 INFO  shutting down Metals
+2023.06.05 08:59:58 INFO  Shut down connection with build server.
+2023.06.05 08:59:58 INFO  Shut down connection with build server.
+2023.06.05 08:59:58 INFO  Exiting server
+2023.06.05 09:47:57 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck' for client Visual Studio Code 1.78.2.
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\.metals\metals (H2 2.1)
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 05, 2023 9:47:58 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.05 09:47:58 INFO  time: initialize in 0.81s
+2023.06.05 09:47:58 INFO  Attempting to connect to the build server...
+2023.06.05 09:47:58 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 09:47:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 09:47:59 INFO  skipping build import with status 'Installed'
+2023.06.05 09:47:59 INFO  Attempting to connect to the build server...
+2023.06.05 09:47:59 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 09:47:59 INFO  Attempting to connect to the build server...
+2023.06.05 09:47:59 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.05 09:47:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 09:47:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\quickcheck\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.05 09:47:59 INFO  time: Connected to build server in 0.4s
+2023.06.05 09:47:59 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.05 09:47:59 INFO  time: Imported build in 0.11s
+2023.06.05 09:48:04 INFO  time: indexed workspace in 4.82s
+2023.06.05 09:48:20 INFO  Shutting down server
+2023.06.05 09:48:20 INFO  shutting down Metals
+2023.06.05 09:48:20 INFO  Shut down connection with build server.
+2023.06.05 09:48:20 INFO  Shut down connection with build server.
+2023.06.05 09:48:20 INFO  Shut down connection with build server.
+2023.06.05 09:48:20 INFO  Exiting server
