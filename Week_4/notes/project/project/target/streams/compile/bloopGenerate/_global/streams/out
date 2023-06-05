@@ -1,0 +1,4 @@
+[debug] [notes-build-build] Classpath dependencies List()
+[debug] [notes-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'notes-build-build' to 'D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project\.bloop\notes-build-build.json'
+[success] Generated .bloop\notes-build-build.json

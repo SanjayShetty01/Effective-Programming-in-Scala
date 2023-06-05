@@ -1,0 +1,4 @@
+[debug] [root-15_phone_mnemonics-test] Classpath dependencies List()
+[debug] [root-15_phone_mnemonics-test] Dependencies from configurations List(root-15_phone_mnemonics)
+[debug] Bloop wrote the configuration of project 'root-15_phone_mnemonics-test' to 'D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\.bloop\root-15_phone_mnemonics-test.json'
+[success] Generated .bloop\root-15_phone_mnemonics-test.json

@@ -1,0 +1,66 @@
+2023.06.04 22:58:57 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics' for client Visual Studio Code 1.78.2.
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\.metals\metals (H2 2.1)
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 04, 2023 10:58:57 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.053s)
+2023.06.04 22:58:58 INFO  time: initialize in 0.64s
+2023.06.04 22:58:59 WARN  Build server is not auto-connectable.
+Jun 04, 2023 10:58:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.06.04 22:58:59 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\build.sbt
+2023.06.04 22:59:01 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.04 22:59:01 INFO  running 'C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals3766083052366178077\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.04 22:59:02 INFO  time: code lens generation in 2.23s
+2023.06.04 22:59:02 INFO  time: code lens generation in 3.03s
+2023.06.04 22:59:05 INFO  [info] welcome to sbt 1.8.2 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.04 22:59:07 INFO  [info] loading settings for project root-15_phone_mnemonics-build-build from metals.sbt ...
+2023.06.04 22:59:07 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\project\project
+2023.06.04 22:59:10 INFO  [info] loading settings for project root-15_phone_mnemonics-build from metals.sbt ...
+2023.06.04 22:59:10 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\project
+2023.06.04 22:59:33 INFO  [success] Generated .bloop\root-15_phone_mnemonics-build.json
+2023.06.04 22:59:33 INFO  [success] Total time: 24 s, completed 4 Jun, 2023 10:59:34 PM
+2023.06.04 22:59:33 INFO  [info] loading settings for project root-15_phone_mnemonics from build.sbt ...
+2023.06.04 22:59:34 INFO  [info] set current project to root-15_phone_mnemonics (in build file:/D:/Github/Effective-Programming-in-Scala/Week_4/15_phone_mnemonics/)
+2023.06.04 22:59:34 INFO  [success] Generated .bloop\root-15_phone_mnemonics-test.json
+2023.06.04 22:59:34 INFO  [success] Generated .bloop\root-15_phone_mnemonics.json
+2023.06.04 22:59:34 INFO  [success] Total time: 1 s, completed 4 Jun, 2023 10:59:35 PM
+2023.06.04 22:59:35 INFO  time: ran 'sbt bloopInstall' in 34s
+2023.06.04 22:59:35 INFO  Attempting to connect to the build server...
+2023.06.04 22:59:35 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:59:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:59:35 INFO  Attempting to connect to the build server...
+2023.06.04 22:59:35 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:59:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\15_phone_mnemonics\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:59:46 INFO  time: Connected to build server in 10s
+2023.06.04 22:59:46 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.04 22:59:54 INFO  time: indexed workspace in 7.82s
+2023.06.04 22:59:57 INFO  time: code lens generation in 2.51s
+2023.06.04 23:01:00 INFO  time: evaluated worksheet 'PhoneMnemonics.worksheet.sc' in 7.14s
+2023.06.04 23:01:02 INFO  time: evaluated worksheet 'PhoneMnemonics.worksheet.sc' in 1.64s
+2023.06.04 23:01:05 INFO  Shutting down server
+2023.06.04 23:01:05 INFO  shutting down Metals
+2023.06.04 23:01:05 INFO  Shut down connection with build server.
+2023.06.04 23:01:05 INFO  Shut down connection with build server.
+2023.06.04 23:01:05 INFO  Exiting server

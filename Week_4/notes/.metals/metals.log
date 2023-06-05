@@ -1,0 +1,138 @@
+2023.06.04 22:35:06 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_4\notes' for client Visual Studio Code 1.78.2.
+Jun 04, 2023 10:35:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 04, 2023 10:35:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 04, 2023 10:35:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_4\notes\.metals\metals (H2 2.1)
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 04, 2023 10:35:07 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.057s)
+2023.06.04 22:35:07 INFO  time: initialize in 0.64s
+2023.06.04 22:35:08 WARN  Build server is not auto-connectable.
+2023.06.04 22:35:08 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\notes\build.sbt
+2023.06.04 22:35:11 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_4\notes\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.04 22:35:13 INFO  time: code lens generation in 1.42s
+2023.06.04 22:35:13 INFO  time: code lens generation in 1.49s
+2023.06.04 22:35:13 INFO  time: code lens generation in 1.55s
+2023.06.04 22:35:13 INFO  time: code lens generation in 4.54s
+2023.06.04 22:35:16 WARN  no build target for: D:\Github\Effective-Programming-in-Scala\Week_4\notes\build.sbt
+2023.06.04 22:35:18 INFO  running 'C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals8786084950744279431\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.04 22:35:22 INFO  [info] welcome to sbt 1.5.0-RC2 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.04 22:35:25 INFO  [info] loading settings for project notes-build-build-build from metals.sbt ...
+2023.06.04 22:35:25 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project\project
+2023.06.04 22:35:34 INFO  [info] loading settings for project notes-build-build from metals.sbt ...
+2023.06.04 22:35:34 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project
+2023.06.04 22:35:49 INFO  [success] Generated .bloop\notes-build-build.json
+2023.06.04 22:35:49 INFO  [success] Total time: 15 s, completed 4 Jun, 2023 10:35:49 PM
+2023.06.04 22:35:50 INFO  [info] loading settings for project notes-build from metals.sbt,plugins.sbt ...
+2023.06.04 22:35:50 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_4\notes\project
+2023.06.04 22:36:03 INFO  [success] Generated .bloop\notes-build.json
+2023.06.04 22:36:03 INFO  [success] Total time: 12 s, completed 4 Jun, 2023 10:36:03 PM
+2023.06.04 22:36:04 INFO  [info] loading settings for project notes from build.sbt ...
+2023.06.04 22:36:04 INFO  [info] set current project to notes (in build file:/D:/Github/Effective-Programming-in-Scala/Week_4/notes/)
+2023.06.04 22:36:11 INFO  [success] Generated .bloop\notes.json
+2023.06.04 22:36:11 INFO  [success] Generated .bloop\notes-test.json
+2023.06.04 22:36:15 INFO  [success] Generated .bloop\jvm.json
+2023.06.04 22:36:15 INFO  [success] Generated .bloop\jvm-test.json
+2023.06.04 22:36:15 INFO  [success] Generated .bloop\js.json
+2023.06.04 22:36:15 INFO  [success] Generated .bloop\js-test.json
+2023.06.04 22:36:15 INFO  [success] Total time: 10 s, completed 4 Jun, 2023 10:36:15 PM
+2023.06.04 22:36:15 INFO  time: ran 'sbt bloopInstall' in 57s
+2023.06.04 22:36:15 INFO  Attempting to connect to the build server...
+2023.06.04 22:36:15 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:36:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:36:15 INFO  Attempting to connect to the build server...
+2023.06.04 22:36:15 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:36:15 INFO  Attempting to connect to the build server...
+2023.06.04 22:36:15 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:36:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:36:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:36:36 ERROR Timeout waiting for 'build/initialize' response
+2023.06.04 22:36:36 WARN  Retrying connection to the build server Bloop
+2023.06.04 22:36:36 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:36:36 ERROR Timeout waiting for 'build/initialize' response
+2023.06.04 22:36:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:36:36 WARN  Retrying connection to the build server Bloop
+2023.06.04 22:36:36 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:36:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:36:46 INFO  time: Connected to build server in 31s
+2023.06.04 22:36:46 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.04 22:36:47 INFO  time: Imported build in 0.16s
+2023.06.04 22:36:57 INFO  time: indexed workspace in 10s
+2023.06.04 22:36:58 INFO  {
+  "jsonrpc": "2.0",
+  "id": "8",
+  "error": {
+    "code": -32603,
+    "message": "java.lang.RuntimeException: Expected compatible Scala.js version [0.6, 1],  given\r\n\tat scala.sys.package$.error(package.scala:30)\r\n\tat bloop.engine.tasks.toolchains.ScalaJsToolchain$.artifactNameFrom(ScalaJsToolchain.scala:131)\r\n\tat bloop.engine.tasks.TestTask$.discoverTestFrameworks(TestTask.scala:245)\r\n\tat bloop.engine.tasks.TestTask$.findTestNamesWithFramework(TestTask.scala:380)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$scalaTestClasses$3(BloopBspServices.scala:581)\r\n\tat scala.collection.immutable.List.map(List.scala:293)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$scalaTestClasses$1(BloopBspServices.scala:579)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$ifInitialized$4(BloopBspServices.scala:370)\r\n\tat bloop.task.Task.$anonfun$runAsync$8(Task.scala:268)\r\n\tat monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:170)\r\n\tat monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)\r\n\tat monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)\r\n\tat monix.eval.internal.TaskCreate$CallbackForCreate.run(TaskCreate.scala:252)\r\n\tat monix.execution.internal.Trampoline.monix$execution$internal$Trampoline$$immediateLoop(Trampoline.scala:66)\r\n\tat monix.execution.internal.Trampoline.startLoop(Trampoline.scala:32)\r\n\tat monix.execution.schedulers.TrampolineExecutionContext$JVMOptimalTrampoline.startLoop(TrampolineExecutionContext.scala:132)\r\n\tat monix.execution.internal.Trampoline.execute(Trampoline.scala:40)\r\n\tat monix.execution.schedulers.TrampolineExecutionContext.execute(TrampolineExecutionContext.scala:57)\r\n\tat monix.execution.schedulers.BatchingScheduler.execute(BatchingScheduler.scala:50)\r\n\tat monix.execution.schedulers.BatchingScheduler.execute$(BatchingScheduler.scala:47)\r\n\tat monix.execution.schedulers.AsyncScheduler.execute(AsyncScheduler.scala:31)\r\n\tat monix.execution.schedulers.StartAsyncBatchRunnable.run(StartAsyncBatchRunnable.scala:42)\r\n\tat java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)\r\n\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)\r\n\tat java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)\r\n\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)\r\n\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)\r\n"
+  }
+}
+2023.06.04 22:38:16 INFO  time: code lens generation in 2.33s
+2023.06.04 22:39:07 INFO  Shutting down server
+2023.06.04 22:39:07 INFO  shutting down Metals
+2023.06.04 22:39:07 INFO  Shut down connection with build server.
+2023.06.04 22:39:07 INFO  Shut down connection with build server.
+2023.06.04 22:39:07 INFO  Shut down connection with build server.
+2023.06.04 22:39:07 INFO  Exiting server
+2023.06.04 22:58:38 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_4\notes' for client Visual Studio Code 1.78.2.
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_4\notes\.metals\metals (H2 2.1)
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 04, 2023 10:58:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.04 22:58:39 INFO  time: initialize in 0.76s
+2023.06.04 22:58:39 INFO  Attempting to connect to the build server...
+2023.06.04 22:58:39 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:58:40 INFO  skipping build import with status 'Installed'
+2023.06.04 22:58:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:58:39 INFO  Attempting to connect to the build server...
+2023.06.04 22:58:39 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:58:39 INFO  Attempting to connect to the build server...
+2023.06.04 22:58:39 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.04 22:58:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:58:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_4\notes\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.04 22:58:40 INFO  time: Connected to build server in 0.48s
+2023.06.04 22:58:40 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.04 22:58:39 INFO  time: Imported build in 0.17s
+2023.06.04 22:58:45 INFO  time: indexed workspace in 5.17s
+2023.06.04 22:58:45 INFO  {
+  "jsonrpc": "2.0",
+  "id": "8",
+  "error": {
+    "code": -32603,
+    "message": "java.lang.RuntimeException: Expected compatible Scala.js version [0.6, 1],  given\r\n\tat scala.sys.package$.error(package.scala:30)\r\n\tat bloop.engine.tasks.toolchains.ScalaJsToolchain$.artifactNameFrom(ScalaJsToolchain.scala:131)\r\n\tat bloop.engine.tasks.TestTask$.discoverTestFrameworks(TestTask.scala:245)\r\n\tat bloop.engine.tasks.TestTask$.findTestNamesWithFramework(TestTask.scala:380)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$scalaTestClasses$3(BloopBspServices.scala:581)\r\n\tat scala.collection.immutable.List.map(List.scala:293)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$scalaTestClasses$1(BloopBspServices.scala:579)\r\n\tat bloop.bsp.BloopBspServices.$anonfun$ifInitialized$4(BloopBspServices.scala:370)\r\n\tat bloop.task.Task.$anonfun$runAsync$8(Task.scala:268)\r\n\tat monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:170)\r\n\tat monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)\r\n\tat monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)\r\n\tat monix.eval.internal.TaskCreate$CallbackForCreate.run(TaskCreate.scala:252)\r\n\tat monix.execution.internal.Trampoline.monix$execution$internal$Trampoline$$immediateLoop(Trampoline.scala:66)\r\n\tat monix.execution.internal.Trampoline.startLoop(Trampoline.scala:32)\r\n\tat monix.execution.schedulers.TrampolineExecutionContext$JVMOptimalTrampoline.startLoop(TrampolineExecutionContext.scala:132)\r\n\tat monix.execution.internal.Trampoline.execute(Trampoline.scala:40)\r\n\tat monix.execution.schedulers.TrampolineExecutionContext.execute(TrampolineExecutionContext.scala:57)\r\n\tat monix.execution.schedulers.BatchingScheduler.execute(BatchingScheduler.scala:50)\r\n\tat monix.execution.schedulers.BatchingScheduler.execute$(BatchingScheduler.scala:47)\r\n\tat monix.execution.schedulers.AsyncScheduler.execute(AsyncScheduler.scala:31)\r\n\tat monix.execution.schedulers.StartAsyncBatchRunnable.run(StartAsyncBatchRunnable.scala:42)\r\n\tat java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)\r\n\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)\r\n\tat java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)\r\n\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)\r\n\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)\r\n"
+  }
+}
+2023.06.04 22:58:50 INFO  Shutting down server
+2023.06.04 22:58:50 INFO  shutting down Metals
+2023.06.04 22:58:50 INFO  Shut down connection with build server.
+2023.06.04 22:58:50 INFO  Shut down connection with build server.
+2023.06.04 22:58:50 INFO  Shut down connection with build server.
+2023.06.04 22:58:50 INFO  Exiting server

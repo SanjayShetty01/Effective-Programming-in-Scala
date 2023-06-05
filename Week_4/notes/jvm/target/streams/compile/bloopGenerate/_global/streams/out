@@ -1,0 +1,4 @@
+[debug] [jvm] Classpath dependencies List()
+[debug] [jvm] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'jvm' to 'D:\Github\Effective-Programming-in-Scala\Week_4\notes\.bloop\jvm.json'
+[success] Generated .bloop\jvm.json

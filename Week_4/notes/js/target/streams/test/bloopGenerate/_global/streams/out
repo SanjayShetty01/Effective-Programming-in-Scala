@@ -1,0 +1,4 @@
+[debug] [js-test] Classpath dependencies List()
+[debug] [js-test] Dependencies from configurations List(js)
+[debug] Bloop wrote the configuration of project 'js-test' to 'D:\Github\Effective-Programming-in-Scala\Week_4\notes\.bloop\js-test.json'
+[success] Generated .bloop\js-test.json
