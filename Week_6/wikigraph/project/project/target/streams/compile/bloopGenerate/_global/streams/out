@@ -1,0 +1,4 @@
+[debug] [wikigraph-build-build] Classpath dependencies List()
+[debug] [wikigraph-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'wikigraph-build-build' to 'D:\Github\Effective-Programming-in-Scala\Week_6\wikigraph\project\project\.bloop\wikigraph-build-build.json'
+[success] Generated .bloop\wikigraph-build-build.json
