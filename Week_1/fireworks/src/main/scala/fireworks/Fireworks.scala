@@ -119,6 +119,8 @@ case class Launched(countDown: Int, position: Point, direction: Angle, numberOfP
 
 end Launched
 
+
+
 object Launched:
 
   /**
