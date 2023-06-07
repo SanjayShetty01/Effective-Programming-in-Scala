@@ -1,0 +1,4 @@
+[debug] [fireworks-test] Classpath dependencies List()
+[debug] [fireworks-test] Dependencies from configurations List(fireworks)
+[debug] Bloop wrote the configuration of project 'fireworks-test' to 'D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\.bloop\fireworks-test.json'
+[success] Generated .bloop\fireworks-test.json

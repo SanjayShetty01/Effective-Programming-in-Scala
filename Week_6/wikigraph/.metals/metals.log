@@ -68,3 +68,9 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 2023.06.06 20:54:24 INFO  time: indexed workspace in 5.59s
 2023.06.06 20:54:39 INFO  compiling wikigraph (8 scala sources)
 2023.06.06 20:54:45 INFO  time: compiled wikigraph in 6.4s
+2023.06.06 21:45:37 INFO  Shutting down server
+2023.06.06 21:45:37 INFO  shutting down Metals
+2023.06.06 21:45:37 INFO  Shut down connection with build server.
+2023.06.06 21:45:37 INFO  Shut down connection with build server.
+2023.06.06 21:45:37 INFO  Shut down connection with build server.
+2023.06.06 21:45:37 INFO  Exiting server
