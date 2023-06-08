@@ -35,10 +35,10 @@ object Firework:
    */
   def next(firework: Firework): Firework =
     firework match
-      case w:Waiting => w.next
-      case l:Launched => l.next
-      case e:Exploding => e.next
-      case Done => firework
+      case waiting :Waiting => waiting.next
+      case launched :Launched => launched.next
+      case exploding :Exploding => exploding.next
+      case Done => Done
     
 
 end Firework
