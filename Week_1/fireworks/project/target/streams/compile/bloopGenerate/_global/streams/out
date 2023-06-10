@@ -1,4 +1,4 @@
-[debug] [fireworks-build] Classpath dependencies List()
-[debug] [fireworks-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'fireworks-build' to 'D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\.bloop\fireworks-build.json'
-[success] Generated .bloop\fireworks-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[fireworks-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[fireworks-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'fireworks-build' to 'D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\.bloop\fireworks-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\fireworks-build.json[0m

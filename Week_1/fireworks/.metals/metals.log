@@ -372,3 +372,13 @@ WARNING: Unmatched cancel notification for request id 621
 2023.06.09 06:32:27 INFO  time: compiled fireworks in 1.25s
 2023.06.09 06:34:45 INFO  compiling fireworks (1 scala source)
 2023.06.09 06:34:46 INFO  time: compiled fireworks in 1.13s
+2023.06.09 06:38:43 INFO  Shutting down server
+2023.06.09 06:38:43 INFO  shutting down Metals
+2023.06.09 06:38:43 INFO  Shut down connection with build server.
+2023.06.09 06:38:43 INFO  Shut down connection with build server.
+2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.09 06:38:43 INFO  Shut down connection with build server.
+2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.09 06:38:43 INFO  Exiting server
