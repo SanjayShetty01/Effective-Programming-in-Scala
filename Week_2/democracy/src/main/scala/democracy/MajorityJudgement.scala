@@ -31,7 +31,7 @@ object Grade:
    * - `apply` to select an element at a specific index.
    */
   def median(grades: Seq[Grade]): Grade =
-    ???
+    grades.sortBy(_.ordinal).apply(grades.size/2)
 end Grade
 
 /**
