@@ -382,3 +382,59 @@ WARNING: Unmatched cancel notification for request id 621
 2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
 2023.06.09 06:38:43 INFO  Failed to run request with params WorkspaceBuildTargetsResult
 2023.06.09 06:38:43 INFO  Exiting server
+2023.06.10 08:04:10 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_1\fireworks' for client Visual Studio Code 1.78.2.
+Jun 10, 2023 8:04:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 10, 2023 8:04:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 10, 2023 8:04:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 10, 2023 8:04:11 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\.metals\metals (H2 2.1)
+Jun 10, 2023 8:04:11 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.041s)
+Jun 10, 2023 8:04:11 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 10, 2023 8:04:11 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.10 08:04:11 INFO  time: initialize in 1.43s
+2023.06.10 08:04:13 INFO  Attempting to connect to the build server...
+2023.06.10 08:04:13 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 08:04:13 INFO  skipping build import with status 'Installed'
+2023.06.10 08:04:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 08:04:13 INFO  Attempting to connect to the build server...
+2023.06.10 08:04:13 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 08:04:13 INFO  Attempting to connect to the build server...
+2023.06.10 08:04:13 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 08:04:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 08:04:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 08:04:14 INFO  time: Connected to build server in 0.77s
+2023.06.10 08:04:14 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.10 08:04:20 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\src\main\scala\fireworks\Fireworks.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.10 08:04:21 INFO  time: code lens generation in 8.37s
+2023.06.10 08:04:22 INFO  time: Imported build in 0.31s
+2023.06.10 08:04:33 INFO  time: indexed workspace in 11s
+2023.06.10 16:04:25 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:04:25 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:04:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:04:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:04:26 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.10 16:04:26 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.10 16:04:26 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:04:26 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:04:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:04:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_1\fireworks\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:04:27 INFO  compiling fireworks (1 scala source)
+2023.06.10 16:04:30 INFO  time: compiled fireworks in 3.27s
+2023.06.10 16:14:32 INFO  compiling fireworks (1 scala source)
+2023.06.10 16:14:33 INFO  time: compiled fireworks in 1.5s
+2023.06.10 16:15:38 INFO  compiling fireworks (1 scala source)
+2023.06.10 16:15:40 INFO  time: compiled fireworks in 1.18s
+2023.06.10 16:20:47 INFO  Shutting down server
+2023.06.10 16:20:47 INFO  shutting down Metals
+2023.06.10 16:20:47 INFO  Shut down connection with build server.
+2023.06.10 16:20:47 INFO  Shut down connection with build server.
+2023.06.10 16:20:47 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.10 16:20:47 INFO  Shut down connection with build server.
+2023.06.10 16:20:47 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.10 16:20:47 INFO  Exiting server

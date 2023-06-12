@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(9951c2f1-c781-47b1-8eb7-971fe26eb336), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\Github\EffectiveProgrammingInScala\quickcheck\target\scala-3.1.0\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to D:\Github\EffectiveProgrammingInScala\quickcheck\target\scala-3.1.0\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 5, Failed 0, Errors 0, Passed 5[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 11 s, completed 12-Jun-2023, 9:49:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

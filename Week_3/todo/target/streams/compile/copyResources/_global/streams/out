@@ -1,6 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\favicon.ico,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.2.2\classes\todo\favicon.ico)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\index.html,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.2.2\classes\todo\index.html)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\manifest.json,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.2.2\classes\todo\manifest.json)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\todo-ui-opt.js,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.2.2\classes\todo\todo-ui-opt.js)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\todo-ui-opt.js.map,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.2.2\classes\todo\todo-ui-opt.js.map)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\favicon.ico,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.1.3\classes\todo\favicon.ico)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\index.html,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.1.3\classes\todo\index.html)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\manifest.json,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.1.3\classes\todo\manifest.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\todo-ui-opt.js,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.1.3\classes\todo\todo-ui-opt.js)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Github\Effective-Programming-in-Scala\Week_3\todo\src\main\resources\todo\todo-ui-opt.js.map,D:\Github\Effective-Programming-in-Scala\Week_3\todo\target\scala-3.1.3\classes\todo\todo-ui-opt.js.map)[0m

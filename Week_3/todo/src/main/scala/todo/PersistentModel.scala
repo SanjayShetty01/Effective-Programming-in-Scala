@@ -98,31 +98,41 @@ object PersistentModel extends Model:
    */
 
   def create(task: Task): Id =
-    ???
+    val tasks = loadTasks()
+    val id = loadId()
+    saveTasks(Tasks(tasks.toMap + (id -> task)))
+    saveId(id.next)
+    id
 
   def read(id: Id): Option[Task] =
-    ???
+    tasks.toMap.get(id)
 
   def update(id: Id)(f: Task => Task): Option[Task] =
-    ???
+    val updated = tasks.toMap.updatedWith(id)(_.map(f))
+    saveTasks(Tasks(updated))
+    updated.get(id)
 
   def delete(id: Id): Boolean =
-    ???
+    val updated = tasks.toMap - id
+    saveTasks(Tasks(updated))
+    updated.get(id).isEmpty
 
   def tasks: Tasks =
-    ???
+    loadTasks()
 
   def tasks(tag: Tag): Tasks =
-    ???
+    Tasks(tasks.toList.filter((_, task) => task.tags.contains(tag)))
 
   def complete(id: Id): Option[Task] =
-    ???
+    val updated = tasks.toMap.updatedWith(id)(_.map(_.complete))
+    saveTasks(Tasks(updated))
+    updated.get(id)
 
   def tags: Tags =
-    ???
+    Tags(tasks.toList.flatMap((_, task) => task.tags).distinct)
 
   /**
   * Delete the tasks and id files if they exist.
   */
   def clear(): Unit =
-    ???
+    saveTasks(Tasks.empty)

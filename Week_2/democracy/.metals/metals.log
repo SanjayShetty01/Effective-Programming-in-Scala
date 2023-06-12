@@ -170,3 +170,158 @@ Caused by: java.nio.channels.ClosedChannelException
 
 2023.05.19 09:07:28 INFO  Cancelling compilation on Bloop server
 2023.05.19 09:07:28 INFO  Exiting server
+2023.06.10 16:21:02 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_2\democracy' for client Visual Studio Code 1.78.2.
+Jun 10, 2023 4:21:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 10, 2023 4:21:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 10, 2023 4:21:02 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 10, 2023 4:21:03 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\metals (H2 2.1)
+Jun 10, 2023 4:21:03 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Jun 10, 2023 4:21:03 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 10, 2023 4:21:03 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.10 16:21:03 INFO  time: initialize in 0.89s
+Jun 10, 2023 4:21:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.06.10 16:21:05 INFO  Attempting to connect to the build server...
+2023.06.10 16:21:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:21:06 INFO  skipping build import with status 'Installed'
+2023.06.10 16:21:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:21:06 INFO  Attempting to connect to the build server...
+2023.06.10 16:21:06 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:21:06 INFO  Attempting to connect to the build server...
+2023.06.10 16:21:06 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 16:21:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:21:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 16:21:06 INFO  time: Connected to build server in 1.1s
+2023.06.10 16:21:06 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.10 16:21:09 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\democracy\src\main\scala\democracy\MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.10 16:21:09 INFO  time: code lens generation in 4.27s
+2023.06.10 16:21:10 INFO  time: Imported build in 0.16s
+2023.06.10 16:21:10 INFO  no build target found for D:\Github\Effective-Programming-in-Scala\Week_2\democracy\src\main\scala\democracy\MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.10 16:21:13 INFO  time: code lens generation in 7.18s
+2023.06.10 16:21:17 INFO  time: indexed workspace in 7.5s
+2023.06.10 21:07:04 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 21:07:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 21:07:04 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.10 21:07:04 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 21:07:04 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 21:07:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 21:07:05 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.10 21:07:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 21:07:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 21:07:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 21:07:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.10 21:07:05 INFO  time: Imported build in 0.81s
+2023.06.10 21:07:21 INFO  time: indexed workspace in 15s
+2023.06.11 00:25:18 INFO  compiling democracy (1 scala source)
+2023.06.11 00:25:20 INFO  compiling democracy-test (1 scala source)
+2023.06.11 00:25:20 INFO  time: compiled democracy in 2.05s
+2023.06.11 00:25:22 INFO  time: compiled democracy-test in 2.4s
+2023.06.11 15:35:44 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 15:35:44 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 15:35:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 15:35:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 15:35:45 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.11 15:35:45 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.11 15:35:45 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 15:35:45 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 15:35:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 15:35:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 15:35:44 INFO  compiling democracy (1 scala source)
+2023.06.11 15:35:46 INFO  time: compiled democracy in 1.1s
+Jun 11, 2023 9:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 362
+Jun 11, 2023 9:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 671
+2023.06.11 21:41:23 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 21:41:23 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 21:41:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 21:41:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 21:41:23 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.11 21:41:23 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.11 21:41:23 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 21:41:23 INFO  Bloop uses C:\Users\Sanjay\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.11 21:41:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 21:41:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_2\democracy\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.11 21:41:23 INFO  compiling democracy (1 scala source)
+2023.06.11 21:41:23 INFO  time: compiled democracy in 0.79s
+2023.06.11 21:41:26 INFO  time: Imported build in 3.37s
+2023.06.11 21:41:31 INFO  time: indexed workspace in 5.19s
+2023.06.11 21:41:32 INFO  compiling democracy (1 scala source)
+2023.06.11 21:41:33 INFO  time: compiled democracy in 1.47s
+2023.06.11 21:43:08 INFO  compiling democracy (1 scala source)
+2023.06.11 21:43:08 INFO  time: compiled democracy in 0.42s
+2023.06.11 21:44:12 INFO  compiling democracy (1 scala source)
+2023.06.11 21:44:12 INFO  time: compiled democracy in 0.43s
+2023.06.11 21:44:33 INFO  compiling democracy (1 scala source)
+2023.06.11 21:44:33 INFO  time: compiled democracy in 0.97s
+2023.06.11 21:44:41 INFO  compiling democracy (1 scala source)
+2023.06.11 21:44:41 INFO  time: compiled democracy in 0.49s
+2023.06.11 21:45:57 INFO  compiling democracy (1 scala source)
+2023.06.11 21:45:57 INFO  time: compiled democracy in 0.51s
+2023.06.11 22:01:26 INFO  Shutting down server
+2023.06.11 22:01:26 INFO  shutting down Metals
+2023.06.11 22:01:26 INFO  Shut down connection with build server.
+2023.06.11 22:01:26 INFO  Shut down connection with build server.
+2023.06.11 22:01:27 INFO  Shut down connection with build server.
+2023.06.11 22:01:27 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.11 22:01:27 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+Jun 11, 2023 10:01:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(SocketChannelImpl.java:269)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:460)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.06.11 22:01:27 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.11 22:01:27 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.06.11 22:01:26 INFO  Cancelling compilation on Bloop server
+2023.06.11 22:01:27 ERROR Unexpected error initializing server: 
+java.lang.UnsupportedOperationException
+	at org.eclipse.lsp4j.services.LanguageClient.refreshSemanticTokens(LanguageClient.java:193)
+	at scala.meta.internal.metals.clients.language.ConfiguredLanguageClient.refreshSemanticTokens(ConfiguredLanguageClient.scala:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onWorksheetChanged$4(MetalsLspService.scala:2658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.06.11 22:01:26 INFO  Exiting server

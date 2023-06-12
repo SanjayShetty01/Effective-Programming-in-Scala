@@ -1,0 +1,69 @@
+2023.06.12 21:53:18 INFO  Started: Metals version 0.11.12 in workspace 'D:\Github\Effective-Programming-in-Scala\Week_5\codecs' for client Visual Studio Code 1.79.0.
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Github\Effective-Programming-in-Scala\Week_5\codecs\.metals\metals (H2 2.1)
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 12, 2023 9:53:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.047s)
+2023.06.12 21:53:19 INFO  time: initialize in 0.66s
+2023.06.12 21:53:21 WARN  Build server is not auto-connectable.
+2023.06.12 21:53:26 INFO  running 'C:\Program Files\Java\jdk-11.0.16\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Sanjay\AppData\Local\Temp\metals550738529800579597\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.12 21:53:26 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.8  (this may take some time)...
+2023.06.12 21:53:39 INFO  [info] welcome to sbt 1.5.8 (Oracle Corporation Java 11.0.16)
+2023.06.12 21:53:42 INFO  [info] loading settings for project codecs-build-build-build from metals.sbt ...
+2023.06.12 21:53:42 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project\project\project
+2023.06.12 21:53:46 INFO  [info] loading settings for project codecs-build-build from metals.sbt ...
+2023.06.12 21:53:46 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project\project
+2023.06.12 21:53:51 INFO  [success] Generated .bloop\codecs-build-build.json
+2023.06.12 21:53:51 INFO  [success] Total time: 6 s, completed 12-Jun-2023, 9:53:51 PM
+2023.06.12 21:53:53 INFO  [info] loading settings for project codecs-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.06.12 21:53:53 INFO  [info] loading project definition from D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project
+2023.06.12 21:53:55 INFO  [success] Generated .bloop\codecs-build.json
+2023.06.12 21:53:55 INFO  [info] compiling 2 Scala sources to D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project\target\scala-2.12\sbt-1.0\classes ...
+2023.06.12 21:54:02 INFO  [info] done compiling
+2023.06.12 21:54:02 INFO  [success] Total time: 9 s, completed 12-Jun-2023, 9:54:02 PM
+2023.06.12 21:54:04 INFO  [info] loading settings for project codecs from assignment.sbt,build.sbt ...
+2023.06.12 21:54:04 INFO  [info] set current project to effective-scala-codecs (in build file:/D:/Github/Effective-Programming-in-Scala/Week_5/codecs/)
+2023.06.12 21:54:07 INFO  [success] Generated .bloop\codecs.json
+2023.06.12 21:54:07 INFO  [success] Generated .bloop\codecs-test.json
+2023.06.12 21:54:07 INFO  [success] Total time: 3 s, completed 12-Jun-2023, 9:54:08 PM
+2023.06.12 21:54:08 INFO  time: ran 'sbt bloopInstall' in 41s
+2023.06.12 21:54:08 INFO  Attempting to connect to the build server...
+2023.06.12 21:54:08 INFO  Bloop uses C:\Program Files\Java\jdk-11.0.16 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.12 21:54:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_5\codecs\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.12 21:54:08 INFO  Attempting to connect to the build server...
+2023.06.12 21:54:08 INFO  Bloop uses C:\Program Files\Java\jdk-11.0.16 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.12 21:54:08 INFO  Attempting to connect to the build server...
+2023.06.12 21:54:08 INFO  Bloop uses C:\Program Files\Java\jdk-11.0.16 defined at C:\Users\Sanjay\.bloop\bloop.json
+2023.06.12 21:54:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.12 21:54:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Github\Effective-Programming-in-Scala\Week_5\codecs\project\project\.metals\bsp.trace.json or C:\Users\Sanjay\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.12 21:54:08 INFO  time: Connected to build server in 0.35s
+2023.06.12 21:54:08 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.12 21:54:08 INFO  time: Imported build in 0.15s
+2023.06.12 21:54:16 INFO  time: indexed workspace in 7.65s
+2023.06.12 21:58:10 INFO  Shutting down server
+2023.06.12 21:58:10 INFO  shutting down Metals
+2023.06.12 21:58:10 INFO  Shut down connection with build server.
+2023.06.12 21:58:10 INFO  Shut down connection with build server.
+2023.06.12 21:58:10 INFO  Shut down connection with build server.
+2023.06.12 21:58:10 INFO  Exiting server

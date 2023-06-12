@@ -2,7 +2,7 @@ course := "effective-scala"
 assignment := "todo"
 javaHome := Some(file("C:\\Program Files\\Java\\jdk-11.0.16"))
 
-val DottyVersion = "3.2.2"
+val DottyVersion = "3.1.3"
 val Http4sVersion = "1.0.0-M4"
 val CirceVersion = "0.13.0"
 val LogbackVersion = "1.2.3"
