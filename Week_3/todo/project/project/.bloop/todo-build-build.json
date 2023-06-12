@@ -200,7 +200,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\Sanjay\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\AdoptOpenJDK\\openjdk8-binaries\\releases\\download\\jdk8u292-b10\\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\\jdk8u292-b10\\jre",
+                "home": "C:\\Program Files\\Java\\jdk-11.0.16",
                 "options": [
                     "-Duser.dir=D:\\Github\\Effective-Programming-in-Scala\\Week_3\\todo\\project\\project"
                 ]
